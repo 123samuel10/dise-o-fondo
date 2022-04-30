@@ -1,0 +1,22 @@
+body{
+    background: repeating-linear-gradient(white,blanchedalmond,white,blanchedalmond,white,blanchedalmond);
+}
+
+
+
+
+p{
+column-count: 2;
+column-gap: 100px;
+column-rule-style: solid;
+column-rule-color: brown;
+}
+h1{
+    color: white;
+    background-color: blanchedalmond;
+    width:500px;
+    height: 80px;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+}

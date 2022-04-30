@@ -1,0 +1,63 @@
+.info{
+    text-align: center;
+    max-width: 400px;
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    color: white;
+    font-size: 25px;
+    background:repeating-linear-gradient(green,black,green,green,black);
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+
+}
+.link{
+    color: brown;
+    background-color: black;
+    font-size: 20px;
+}
+.contenedor{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: contain;
+    animation: annie 10s infinite;
+    height: 900px;
+    width: 100%;
+}
+@keyframes annie{
+    0% , 20%{
+        background-image: url(../imagenes/alemania1.jpg);
+    }
+    25%,40%{
+        background-image: url(../imagenes/alemani2.jpg);
+    }
+    45%,60%{
+        background-image: url(../imagenes/reemplazo.jpg);
+        
+        
+    }
+    65%,80%{
+        background-image: url(../imagenes/alemania4.jpg);
+    }
+    85%,100%{
+        background-image: url(../imagenes/alemania5.jpg);
+    }
+}
+.paginacion{
+    background-color: green;
+   display: flex;
+   text-align: center;
+}
+.paginacion a{
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+
+}
+.paginacion a:hover{
+    color: black;
+    background-color: white;
+}

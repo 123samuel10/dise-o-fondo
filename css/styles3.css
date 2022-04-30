@@ -1,0 +1,113 @@
+body{
+    background: repeating-radial-gradient(yellow,blue,blue,red,red,yellow);
+}
+
+
+
+.contenedor{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    box-shadow: 0 0 10px 10px hsl(3, 3%, 3%);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 10px 10px white;
+}
+.animacion{
+    width: 120px;
+    height: 120px;
+    background:repeating-linear-gradient(yellow,blue,red,yellow,blue,red,yellow,blue,red);
+    transform: skew(20deg);
+    animation: skew 2s infinite;
+    
+}
+@keyframes skew{
+    0%{
+        transform: skew(20deg,20deg);
+    }
+  25%{
+      transform: skew(-20deg-20deg);
+  }
+  50%{
+      transform: skew(30deg,30deg);
+  }
+  75%{
+    transform: skew(-30deg,-30deg);
+  }
+ 
+}
+.colombia{
+    background:repeating-linear-gradient(yellow,blue,red,red,blue,yellow);
+    width: 200px;
+    height: 40px;
+    margin: 40px;
+    color: white;
+    box-shadow: 0 0 10px 10px black;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+.imagenes{
+  
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 5px black;
+    margin-top: 50px;
+}
+
+.paisaje{
+    background-image: url(../imagenes/colombi2.jpeg);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 0 0 5px 5px yellow;
+}
+.paisaje2{
+
+background-image: url(../imagenes/colombi3.jpg);
+background-size: contain;
+width: 300px;
+height: 300px;
+margin: 50px;
+box-shadow: 0 0 5px 5px yellow;
+}
+.paisaje3{
+    background-image: url(../imagenes/colombi4.webp);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 0 0 5px 5px yellow;
+}
+.paisaje4{
+    background-image: url(../imagenes/colombi5.jpg);
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-shadow: 0 0 5px 5px yellow;
+}
+
+.paginas{
+    background-color: white;
+    display: flex;
+}
+.paginas a{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    line-height: 100px;
+    transition: .2s linear;
+}
+.paginas a:hover{
+    color: white;
+    background-color: coral;
+}
